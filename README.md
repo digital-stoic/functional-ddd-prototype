@@ -1,2 +1,1 @@
-# functional-ddd-prototype
-Functional Domain-Driven Design prototype
+# Functional Domain-Driven Design prototype
