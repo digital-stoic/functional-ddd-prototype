@@ -1,6 +1,6 @@
 // FIXME: Better formatting for worklow self-documentation
 // FIXME: internal prevents testing
-// module internal OrderTaking.PlaceOrder.Implementation
+// module internal OrderTaking.PlaceOrder.Domain
 module OrderTaking.PlaceOrder.Domain
 
 open FsToolkit.ErrorHandling
