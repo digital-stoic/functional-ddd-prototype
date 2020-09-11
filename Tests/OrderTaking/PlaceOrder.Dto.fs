@@ -2,6 +2,7 @@ module Test.OrderTaking.PlaceOrder.Dto
 
 open Expecto
 open Expecto.Flip.Expect
+open Test.Common.Helpers
 open Test.OrderTaking.Common.Helpers
 open Test.OrderTaking.Common.Data
 open OrderTaking.PlaceOrder.Dto

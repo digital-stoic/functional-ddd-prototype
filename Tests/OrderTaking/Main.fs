@@ -1,5 +1,5 @@
 ﻿open Expecto
-open Test.OrderTaking.Common.Helpers
+open Test.Common.Helpers
 
 [<Tests>]
 let tests =

@@ -26,5 +26,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Modules\OrderTaking\OrderTaking.fsproj" />
+    <ProjectReference Include="..\Common\Test.Common.fsproj" />
   </ItemGroup>
 </Project>

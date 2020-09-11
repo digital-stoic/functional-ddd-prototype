@@ -6,11 +6,6 @@ module Test.OrderTaking.Common.Helpers
 
 open Expecto.Flip.Expect
 
-// Append test lists
-let testListAppend tests =
-    List.fold (fun testList test -> List.append testList [ test ]) [] tests
-
-
 // equal for Result
 let equalR message expected actual =
     match actual with

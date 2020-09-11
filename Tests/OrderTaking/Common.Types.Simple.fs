@@ -2,6 +2,7 @@ module Test.OrderTaking.Common.Types.Simple
 
 open Expecto
 open Expecto.Flip.Expect
+open Test.Common.Helpers
 open Test.OrderTaking.Common.Helpers
 open Test.OrderTaking.Common.Stubs
 open Test.OrderTaking.Common.Data
