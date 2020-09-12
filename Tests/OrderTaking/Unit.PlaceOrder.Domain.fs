@@ -1,4 +1,4 @@
-module Test.OrderTaking.PlaceOrder.Domain
+module Test.Unit.OrderTaking.PlaceOrder.Domain
 
 open Expecto
 open Expecto.Flip.Expect
@@ -6,9 +6,6 @@ open Test.Common.Helpers
 open Test.OrderTaking.Common.Helpers
 open Test.OrderTaking.Common.Stubs
 open Test.OrderTaking.Common.Data
-open OrderTaking.Common.Types.Simple
-open OrderTaking.Common.Types.Compound
-open OrderTaking.PlaceOrder.Types.Public
 open OrderTaking.PlaceOrder.Domain
 
 //==============================================================================

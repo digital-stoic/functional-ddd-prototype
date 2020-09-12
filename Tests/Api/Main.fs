@@ -3,7 +3,7 @@ open Test.Common.Helpers
 
 [<Tests>]
 let tests = 
-    testList "Api" <| testListAppend [ Test.Api.Configuration.tests ]
+    testList "Api" <| testListAppend [ Test.Unit.Api.Configuration.tests ]
 
 [<EntryPoint>]
 let main argv =

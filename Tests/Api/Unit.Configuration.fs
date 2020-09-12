@@ -1,4 +1,4 @@
-module Test.Api.Configuration
+module Test.Unit.Api.Configuration
 
 open Expecto
 open Expecto.Flip.Expect

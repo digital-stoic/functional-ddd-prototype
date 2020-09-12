@@ -1,4 +1,4 @@
-module Test.OrderTaking.PlaceOrder.Dto
+module Test.Unit.OrderTaking.PlaceOrder.Dto
 
 open Expecto
 open Expecto.Flip.Expect

@@ -1,4 +1,4 @@
-module Test.OrderTaking.Common.Types.Simple
+module Test.Unit.OrderTaking.Common.Types.Simple
 
 open Expecto
 open Expecto.Flip.Expect

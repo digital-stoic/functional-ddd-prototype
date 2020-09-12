@@ -10,9 +10,9 @@
     <Compile Include="Common.Helpers.fs" />
     <Compile Include="Common.Stubs.fs" />
     <Compile Include="Common.Data.fs" />
-    <Compile Include="Common.Types.Simple.fs" />
-    <Compile Include="PlaceOrder.Domain.fs" />
-    <Compile Include="PlaceOrder.Dto.fs" />
+    <Compile Include="Unit.Common.Types.Simple.fs" />
+    <Compile Include="Unit.PlaceOrder.Domain.fs" />
+    <Compile Include="Unit.PlaceOrder.Dto.fs" />
     <Compile Include="Main.fs" />
   </ItemGroup>
 
