@@ -7,7 +7,17 @@
 
   <ItemGroup>
     <Compile Include="Helpers.fs" />
-    <Compile Include="Program.fs" />
+    <Compile Include="Integration.Persistence.CosmosDb.fs" />
+    <Compile Include="Main.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Common\Common.fsproj" />
+    <ProjectReference Include="..\..\Api\Api.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="expecto" Version="9.0.2" />
   </ItemGroup>
 
 </Project>
