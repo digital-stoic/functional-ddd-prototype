@@ -1,5 +1,6 @@
 module Test.Unit.Api.Configuration
 
+open System.IO
 open Expecto
 open Expecto.Flip.Expect
 open Test.Common.Helpers
@@ -9,7 +10,10 @@ open Api
 // Data
 //==============================================================================
 
-let appSettingsFilenameOK1 = "appsettings.json"
+let appSettingsFilenameOK1 = "appsettings-test.json"
+
+let appSettingsFilePathOK1 =
+    Path.Combine(Directory.GetCurrentDirectory(), appSettingsFilenameOK1)
 
 let dbConnectionStringOK1 =
     "AccountEndpoint=https://dummy.documents.azure.com:443/;AccountKey=dummy==;"
@@ -31,7 +35,7 @@ let testListWithoutDefault =
         "WithoutDefault"
         [ test "DbConnectionString" {
               let config =
-                  Configuration.build appSettingsFilenameOK1
+                  Configuration.build appSettingsFilePathOK1
 
               config.DbConnectionString
               |> equal "Config parsed" dbConnectionStringOK1

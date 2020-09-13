@@ -7,9 +7,9 @@ open FsConfig
 type Configuration = { DbConnectionString: string }
 
 module Configuration =
-    let build (appSettingsFilename: string) =
+    let build (appSettingsFilePath: string) =
         let configurationRoot =
-            ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile(appSettingsFilename).Build()
+            ConfigurationBuilder().AddJsonFile(appSettingsFilePath).Build()
 
         let appConfig =
             AppConfig(configurationRoot).Get<Configuration>(fun _ s -> s)
