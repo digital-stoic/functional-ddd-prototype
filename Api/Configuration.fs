@@ -4,7 +4,10 @@ open System.IO
 open Microsoft.Extensions.Configuration
 open FsConfig
 
-type Configuration = { DbConnectionString: string }
+type Configuration =
+    { DbConnectionString: string
+      Database: string
+      Container: string }
 
 module Configuration =
     let build (appSettingsFilePath: string) =
