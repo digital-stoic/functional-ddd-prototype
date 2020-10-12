@@ -8,7 +8,8 @@ let tests =
     let testListIntegration =
         testList "Integration" <|testListAppend  [ ]
 
-    testList "Api" <| testListAppend [ testListUnit; testListIntegration ]
+    //testList "Api" <| testListAppend [ testListUnit; testListIntegration ]
+    testList "Api" <| testListAppend [ testListUnit ]
 
 [<EntryPoint>]
 let main argv =
