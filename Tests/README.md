@@ -1,3 +1,12 @@
+# Builds
+
+```
+# Tests only
+$ dotnet fake -s run build.fsx --target test
+# Deployment
+$ dotnet fake -s run build.fsx 
+```
+
 # How to run Tests
 
 Example with the `Api` module:
