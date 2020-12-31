@@ -5,6 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Configuration.fs" />
+    <Compile Include="Router.Default.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
