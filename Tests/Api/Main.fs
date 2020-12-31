@@ -6,11 +6,11 @@ let tests =
     let testListUnit =
         testList "Unit" <|testListAppend  [ Test.Unit.Api.Configuration.tests ]
     let testListIntegration =
-        testList "Integration" <|testListAppend  [ ]
+        testList "Integration" <|testListAppend  [ Test.Integration.Api.Ping.tests ]
 
-    //testList "Api" <| testListAppend [ testListUnit; testListIntegration ]
-    testList "Api" <| testListAppend [ testListUnit ]
+    testList "Api" <| testListAppend [ testListUnit; testListIntegration ]
 
 [<EntryPoint>]
 let main argv =
+    printfn "Reminder: Web App must be running before launching the Integration tests"
     Tests.runTestsInAssemblyWithCLIArgs [] argv

@@ -8,8 +8,8 @@ open Router.Default
 
 let appConfig =
     {| origin = "https://hoppscotch.io"
-       loggingLevel = LogLevel.Warning |}
-//    loggingLevel = LogLevel.Trace |}
+       loggingLevel = LogLevel.Information |}
+//    loggingLevel = LogLevel.Warning |}
 
 let endpointPipe =
     pipeline {
